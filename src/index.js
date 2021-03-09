@@ -159,19 +159,6 @@ export default function App () {
                             <Text style={styles.iconTxt}>{clima.main.pressure+"\n"}mbar</Text>
                         </View>
                     </View>
-                    
-                    <View style={styles.lineIcons}>
-                        <View />
-                        <View style={{flexDirection: "row"}}>
-                            <Image style={styles.iconSet} source={require("./assets/sunrise.png")} />
-                            <Text style={styles.iconTxt}>{new Date(clima.sys.sunrise).getHours()}hrs</Text>
-                        </View>
-                        <View style={{flexDirection: "row"}}>
-                            <Image style={styles.iconSet} source={require("./assets/sunset.png")} />
-                            <Text style={styles.iconTxt}>{new Date(clima.sys.sunset).getHours()}hrs</Text>
-                        </View>
-                        <View />
-                    </View>
                 </View>
 
             </View>

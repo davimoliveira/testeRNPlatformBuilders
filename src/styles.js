@@ -55,12 +55,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
     },
     minMax:{
-        fontSize: 60, 
+        fontSize: 40, 
         color: "#fff",
         textAlign: "center",
     },
     txtInferior:{
-        fontSize: 20, 
+        fontSize: 18, 
         color: "#fff",
         textAlign: "center",
     },
